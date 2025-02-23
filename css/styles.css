@@ -1,0 +1,179 @@
+:root {
+  --primary-font: "Roboto", sans-serif;
+  --primary-color: #434455;
+  --secondary-color: #2e2f42;
+  --logo-color: #4d5ae5;
+  --card-background: #ffffff;
+  --footer-text: #f4f4fd;
+  --link-hover: #404bbf;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #ffffff;
+  color: var(--primary-color);
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+.logo {
+  color: var(--logo-color);
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.menu-link {
+  color: var(--secondary-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.menu-link:hover,
+.menu-link:focus {
+  color: var(--link-hover);
+}
+.studio {
+  color: var(--secondary-color);
+}
+.contacts {
+  font-style: normal;
+}
+.contacts-link {
+  color: var(--primary-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.contacts-link:hover,
+.contacts-link:focus {
+  color: var(--link-hover);
+}
+.hero-section {
+  background-color: var(--secondary-color);
+  color: #ffffff;
+}
+.hero {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+.order-button {
+  font-family: "Roboto", sans-serif;
+  background-color: var(--logo-color);
+  color: #ffffff;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+.order-button:hover,
+.order-button:focus {
+  background-color: var(--link-hover);
+}
+
+.features-name {
+  color: var(--secondary-color);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.features-text {
+  color: var(--primary-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.team-section {
+  background-color: #f4f4fd;
+}
+
+.team {
+  color: var(--secondary-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  text-align: center;
+}
+.team-member {
+  background-color: var(--card-background);
+}
+
+.member-name {
+  color: var(--secondary-color);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.member-position {
+  color: var(--primary-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.portfolio-section {
+  background-color: inherit;
+  color: inherit;
+}
+.portfolio {
+  color: var(--secondary-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  text-align: center;
+}
+.portfolio-list {
+  background-color: var(--card-background);
+}
+
+.portfolio-item {
+  color: var(--secondary-color);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.portfolio-text {
+  color: var(--primary-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.footer {
+  background-color: var(--secondary-color);
+  color: var(--footer-text);
+}
+
+.footer-studio {
+  color: var(--footer-text);
+}
+
+.footer-text {
+  color: var(--footer-text);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+}
