@@ -66,6 +66,7 @@ header {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-right: 76px;
 }
 .menu-link {
   display: block;
@@ -105,10 +106,10 @@ header {
 .hero-section {
   background-color: var(--secondary-color);
   color: #ffffff;
-}
-.hero-container {
   padding-top: 188px;
   padding-bottom: 188px;
+}
+.hero-container {
   text-align: center;
 }
 .hero {
@@ -117,7 +118,7 @@ header {
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
-  width: 496px;
+  max-width: 496px;
   margin-bottom: 48px;
   margin-left: auto;
   margin-right: auto;
@@ -137,6 +138,10 @@ header {
   gap: 10px;
   border: 0;
   border-radius: 4px;
+  display: block;
+  min-width: 169px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .order-button:hover,
 .order-button:focus {
@@ -159,9 +164,12 @@ header {
   display: flex;
   gap: 24px;
 }
-.features-container {
+.features {
   padding-top: 120px;
   padding-bottom: 120px;
+}
+.features-item {
+  width: calc((100% - 24px * 3) / 4);
 }
 .features-name {
   color: var(--secondary-color);
@@ -177,14 +185,13 @@ header {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  width: calc((100% - 24 * 3) / 4);
 }
 .team-container {
-  padding-top: 120px;
-  padding-bottom: 120px;
 }
 .team-section {
   background-color: #f4f4fd;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .team {
@@ -197,9 +204,7 @@ header {
   text-align: center;
   margin-bottom: 72px;
 }
-.team-member-photo {
-  margin-bottom: 32px;
-}
+
 .team-list {
   display: flex;
   gap: 24px;
@@ -209,9 +214,12 @@ header {
 .team-member {
   background-color: var(--card-background);
   width: 264px;
-  text-align: center;
+  border-radius: 0px 0px 4px 4px;
 }
-
+.team-list-item {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
 .member-name {
   color: var(--secondary-color);
   font-weight: 500;
@@ -219,6 +227,7 @@ header {
   line-height: 1.2;
   letter-spacing: 0.02em;
   margin-bottom: 8px;
+  text-align: center;
 }
 
 .member-position {
@@ -227,16 +236,15 @@ header {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  margin-bottom: 32px;
+  text-align: center;
 }
 .portfolio-section {
   background-color: inherit;
   color: inherit;
-}
-.portfolio-container {
   padding-top: 120px;
   padding-bottom: 120px;
 }
+
 .portfolio {
   color: var(--secondary-color);
   font-weight: 700;
@@ -252,6 +260,9 @@ header {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
+  row-gap: 48px;
+}
+.portfolio-item {
   width: calc((100% - 24 * 3) / 4);
 }
 .portfolio-card-item {
@@ -280,17 +291,16 @@ header {
 .footer {
   background-color: var(--secondary-color);
   color: var(--footer-text);
-}
-.footer-container {
   padding-top: 101.5px;
   padding-bottom: 100px;
 }
+
 .footer-studio {
   color: var(--footer-text);
 }
 .logo-footer {
-  display: block;
-  margin-bottom: 17.5px;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 .footer-text {
   color: var(--footer-text);
